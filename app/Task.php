@@ -13,14 +13,13 @@ class Task extends DataObject
 
   private static $has_one = [
     "Project" => Project::class,
-  ];
-
-  private static $has_many = [
     "AssignedTo" => Member::class,
   ];
 
 
+
   public function getCMSFields()
   {
+    return parent::getCMSFields();
   }
 }
