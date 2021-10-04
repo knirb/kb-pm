@@ -44,3 +44,8 @@ SilverStripe\Core\Injector\Injector:
     properties:
       Middlewares:
         csrf: false
+
+SilverStripe\GraphQL\Auth\Handler:
+  authenticators:
+    - class: SilverStripe\GraphQL\Auth\BasicAuthAuthenticator
+      priority: 10
