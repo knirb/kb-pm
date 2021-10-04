@@ -1,2 +1,6 @@
 /vendor/
 /public/
+/.graphql/
+/log/
+.env
+admin.types.graphql
