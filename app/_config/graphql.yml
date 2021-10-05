@@ -30,6 +30,12 @@ SilverStripe\GraphQL\Schema\Schema:
         SilverStripe\Security\Member:
           fields: "*"
           operations: "*"
+        SilverStripe\Assets\Image:
+          fields: "*"
+          operations: "*"
+        SilverStripe\Assets\File:
+          fields: "*"
+          operations: "*"
         Task:
           fields: "*"
           operations: "*"

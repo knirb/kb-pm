@@ -4,3 +4,4 @@
 /log/
 .env
 admin.types.graphql
+/assets/
